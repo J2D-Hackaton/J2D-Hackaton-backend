@@ -42,34 +42,20 @@ class AuthController extends Controller
 
     public function login(Request $request)
     {
-
-        $validator = Validator::make($request->all(), [
-            'email' => 'required|max:191',
-            'password' => 'required',
+        $data = $request->all();
+        $validator = Validator::make($data, [
+            'email' =>'required | email',
+            'password' => 'min:4 | required'
         ]);
+        if($validator->fails()){
+            return response(['error' => $validator->errors(), "Validation error"], 302);
+        }
 
-        if ($validator->fails()) {
-            return response()->json([
-                'validation_errors' => $validator->messages(),
-            ]);
-        } else {
-            $user = User::where('email', $request->email)->first();
-
-            if (!$user || !Hash::check($request->password, $user->password)) {
-                return response()->json([
-                    'status' => 401,
-                    'message' => 'Credenciales incorrectas',
-                ]);
-            } else {
-                $token = $user->createToken('auth_Token')->accessToken;
-
-                return response()->json([
-                    'username' => $user->name,
-                    'token' => $token,
-                    'id' => $user->id,
-                    'message' => 'Se ha iniciado sesión correctamente!',
-                ], 200);
-            }
+        if(auth()->attempt($data)){
+            $token = auth()->user()->createToken('Personal Access Token')->accessToken;
+            return response()->json(['token' => $token], 200);
+        }else{
+            return response()->json(['error' => 'Unauthorized'], 401);
         }
     }
 
