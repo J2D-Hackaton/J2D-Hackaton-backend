@@ -29,10 +29,10 @@ class InterventionController extends Controller
         ]);
 
         Intervention::create([
-            'barrio_id' => $request->zone_id,
+            'barrio_id' => $request->barrio_id,
             'title' => $request->title,
             'description' => $request->description,
-            'startDate'  => $request->startdate,
+            'startDate'  => $request->startDate,
             'endDate' => $request->endDate,
             'budget' => $request->budget,
             'status' => $request->status,
@@ -81,7 +81,7 @@ class InterventionController extends Controller
             $Intervention->fill($request->all());
 
 
-            $Intervention->save();
+            $Intervention->update();
 
             return response()->json([
                 'status' => true,
