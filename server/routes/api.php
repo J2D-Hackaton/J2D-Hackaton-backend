@@ -8,8 +8,8 @@ use App\Http\Controllers\Api\V1\MultipolygonsController;
 
 
 
-// Route::post('/register', [AuthController::class, 'register']);
-// Route::post('/login', [AuthController::class, 'login']);
+Route::post('/register', [AuthController::class, 'register']);
+Route::post('/login', [AuthController::class, 'login']);
 
 Route::get('/interventions', [InterventionController::class, 'index']);
 Route::get('/intervention/{id}', [InterventionController::class, 'show']);
