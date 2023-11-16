@@ -1,1 +1,0 @@
-# J2D-Hackaton-backend
