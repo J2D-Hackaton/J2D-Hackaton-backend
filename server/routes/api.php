@@ -19,4 +19,4 @@ Route::middleware(['auth:api'])->group(function () {
 });
 
 Route::get('/all', [MultipolygonController::class, 'getAllMultipolygons'])->name('api.getAllMultipolygons');
-Route::get('/boroughs', [MultipolygonController::class, 'getBoroughsCoords'])->name('api.getBoroughsCoords');
+Route::get('/boroughs', [MultipolygonController::class, 'getCoordsFromAllBorough'])->name('api.getBoroughsCoords');
