@@ -109,7 +109,9 @@ class MultipolygonController extends Controller
         $all_multipolygons = Multipolygons::all();
 
         foreach ($boroughs as $borough) {
+            $i=0;
             $info_borough[$borough] = [
+                "id" => "",
                 "coords" => [], // Inicializamos un array para almacenar las coordenadas
                 "average_veg" => 1,
             ];
@@ -117,9 +119,11 @@ class MultipolygonController extends Controller
             foreach ($borough_multipolygons as $row) {
                 $coords = json_decode($row->coords, true);
                 if (!in_array($coords, $info_borough[$borough]["coords"])) {
+                    $info_borough[$borough]["id"] = $boroughs[$i];
                     $info_borough[$borough]["coords"][] = $coords;
                 }
             }
+            $i++;
         }
         return $info_borough;
     }

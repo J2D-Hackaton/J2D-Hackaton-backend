@@ -14,7 +14,7 @@ class MultiPolygonSeeder extends Seeder
      */
     public function run(): void
     {
-        $jsonContent = file_get_contents(database_path('output.json'));
+        $jsonContent = file_get_contents(database_path('barrios_simple.json'));
         $multipolygons = json_decode($jsonContent, true);
 
         foreach($multipolygons as $multipolygon){

@@ -1,0 +1,2004 @@
+[
+    {
+       "id":0,
+       "name_borough":"el Raval",
+       "code_borough":1,
+       "name_district":"Ciutat Vella",
+       "code_district":1,
+       "action_index":0.4037463636,
+       "vegetation_index":-0.0687002012,
+       "vulnerability_index":4,
+       "coords":[
+          2.1773501893,
+          41.3742713028
+       ]
+    },
+    {
+       "id":1,
+       "name_borough":"el Raval",
+       "code_borough":1,
+       "name_district":"Ciutat Vella",
+       "code_district":1,
+       "action_index":0.4037463636,
+       "vegetation_index":0.1473108032,
+       "vulnerability_index":4,
+       "coords":[
+          2.1738990063,
+          41.3779093591
+       ]
+    },
+    {
+       "id":21,
+       "name_borough":"el Barri Gòtic",
+       "code_borough":2,
+       "name_district":"Ciutat Vella",
+       "code_district":1,
+       "action_index":-0.3386710634,
+       "vegetation_index":-0.420628993,
+       "vulnerability_index":7,
+       "coords":[
+          2.1720539562,
+          41.38487895
+       ]
+    },
+    {
+       "id":22,
+       "name_borough":"el Barri Gòtic",
+       "code_borough":2,
+       "name_district":"Ciutat Vella",
+       "code_district":1,
+       "action_index":-0.0911985877,
+       "vegetation_index":-1.1445232922,
+       "vulnerability_index":6,
+       "coords":[
+          2.1739460831,
+          41.3862277689
+       ]
+    },
+    {
+       "id":31,
+       "name_borough":"la Barceloneta",
+       "code_borough":3,
+       "name_district":"Ciutat Vella",
+       "code_district":1,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.690906112,
+       "vulnerability_index":5,
+       "coords":[
+          2.191643468,
+          41.3781329223
+       ]
+    },
+    {
+       "id":32,
+       "name_borough":"la Barceloneta",
+       "code_borough":3,
+       "name_district":"Ciutat Vella",
+       "code_district":1,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.9472092068,
+       "vulnerability_index":5,
+       "coords":[
+          2.1890412674,
+          41.3777149894
+       ]
+    },
+    {
+       "id":42,
+       "name_borough":"Sant Pere, Santa Caterina i la Ribera",
+       "code_borough":4,
+       "name_district":"Ciutat Vella",
+       "code_district":1,
+       "action_index":0.6512188392,
+       "vegetation_index":2.3320242285,
+       "vulnerability_index":3,
+       "coords":[
+          2.1871661889,
+          41.3863416204
+       ]
+    },
+    {
+       "id":43,
+       "name_borough":"Sant Pere, Santa Caterina i la Ribera",
+       "code_borough":4,
+       "name_district":"Ciutat Vella",
+       "code_district":1,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.6463560521,
+       "vulnerability_index":5,
+       "coords":[
+          2.1832567334,
+          41.3860397279
+       ]
+    },
+    {
+       "id":55,
+       "name_borough":"el Fort Pienc",
+       "code_borough":5,
+       "name_district":"Eixample",
+       "code_district":2,
+       "action_index":0.6512188392,
+       "vegetation_index":0.78875832,
+       "vulnerability_index":3,
+       "coords":[
+          2.1831614556,
+          41.393732787
+       ]
+    },
+    {
+       "id":56,
+       "name_borough":"el Fort Pienc",
+       "code_borough":5,
+       "name_district":"Eixample",
+       "code_district":2,
+       "action_index":0.4037463636,
+       "vegetation_index":0.1935403342,
+       "vulnerability_index":4,
+       "coords":[
+          2.1807653239,
+          41.3943544361
+       ]
+    },
+    {
+       "id":75,
+       "name_borough":"la Sagrada Família",
+       "code_borough":6,
+       "name_district":"Eixample",
+       "code_district":2,
+       "action_index":0.4037463636,
+       "vegetation_index":0.2850820948,
+       "vulnerability_index":4,
+       "coords":[
+          2.1814962491,
+          41.4027742787
+       ]
+    },
+    {
+       "id":76,
+       "name_borough":"la Sagrada Família",
+       "code_borough":6,
+       "name_district":"Eixample",
+       "code_district":2,
+       "action_index":0.4037463636,
+       "vegetation_index":-0.1415218279,
+       "vulnerability_index":4,
+       "coords":[
+          2.1839747149,
+          41.4041196788
+       ]
+    },
+    {
+       "id":109,
+       "name_borough":"la Dreta de l'Eixample",
+       "code_borough":7,
+       "name_district":"Eixample",
+       "code_district":2,
+       "action_index":0.4037463636,
+       "vegetation_index":0.1742591218,
+       "vulnerability_index":4,
+       "coords":[
+          2.1691786939,
+          41.4013705484
+       ]
+    },
+    {
+       "id":110,
+       "name_borough":"la Dreta de l'Eixample",
+       "code_borough":7,
+       "name_district":"Eixample",
+       "code_district":2,
+       "action_index":0.4037463636,
+       "vegetation_index":0.0553426261,
+       "vulnerability_index":4,
+       "coords":[
+          2.1707978993,
+          41.4002953793
+       ]
+    },
+    {
+       "id":138,
+       "name_borough":"l'Antiga Esquerra de l'Eixample",
+       "code_borough":8,
+       "name_district":"Eixample",
+       "code_district":2,
+       "action_index":-0.0911985877,
+       "vegetation_index":-0.2545026083,
+       "vulnerability_index":6,
+       "coords":[
+          2.1562139141,
+          41.3924631841
+       ]
+    },
+    {
+       "id":139,
+       "name_borough":"l'Antiga Esquerra de l'Eixample",
+       "code_borough":8,
+       "name_district":"Eixample",
+       "code_district":2,
+       "action_index":-0.0911985877,
+       "vegetation_index":0.0289398572,
+       "vulnerability_index":6,
+       "coords":[
+          2.1539004972,
+          41.3940624875
+       ]
+    },
+    {
+       "id":164,
+       "name_borough":"la Nova Esquerra de l'Eixample",
+       "code_borough":9,
+       "name_district":"Eixample",
+       "code_district":2,
+       "action_index":-0.3386710634,
+       "vegetation_index":0.0989190728,
+       "vulnerability_index":7,
+       "coords":[
+          2.1472616789,
+          41.3887095988
+       ]
+    },
+    {
+       "id":165,
+       "name_borough":"la Nova Esquerra de l'Eixample",
+       "code_borough":9,
+       "name_district":"Eixample",
+       "code_district":2,
+       "action_index":-0.3386710634,
+       "vegetation_index":0.0877719308,
+       "vulnerability_index":7,
+       "coords":[
+          2.1442997869,
+          41.388554178
+       ]
+    },
+    {
+       "id":204,
+       "name_borough":"Sant Antoni",
+       "code_borough":10,
+       "name_district":"Eixample",
+       "code_district":2,
+       "action_index":-0.3386710634,
+       "vegetation_index":-0.2790442654,
+       "vulnerability_index":7,
+       "coords":[
+          2.1518829823,
+          41.3757178138
+       ]
+    },
+    {
+       "id":205,
+       "name_borough":"Sant Antoni",
+       "code_borough":10,
+       "name_district":"Eixample",
+       "code_district":2,
+       "action_index":-0.3386710634,
+       "vegetation_index":0.2847309697,
+       "vulnerability_index":7,
+       "coords":[
+          2.1533373242,
+          41.3767388582
+       ]
+    },
+    {
+       "id":228,
+       "name_borough":"el Poble-sec",
+       "code_borough":11,
+       "name_district":"Sants-Montjuïc",
+       "code_district":3,
+       "action_index":-0.3386710634,
+       "vegetation_index":-0.7017920868,
+       "vulnerability_index":7,
+       "coords":[
+          2.1580826952,
+          41.3743131055
+       ]
+    },
+    {
+       "id":229,
+       "name_borough":"el Poble-sec",
+       "code_borough":11,
+       "name_district":"Sants-Montjuïc",
+       "code_district":3,
+       "action_index":-0.3386710634,
+       "vegetation_index":-0.691313392,
+       "vulnerability_index":7,
+       "coords":[
+          2.1572774125,
+          41.3728751391
+       ]
+    },
+    {
+       "id":252,
+       "name_borough":"la Marina del Prat Vermell",
+       "code_borough":12,
+       "name_district":"Sants-Montjuïc",
+       "code_district":3,
+       "action_index":-0.0911985877,
+       "vegetation_index":-0.6640570057,
+       "vulnerability_index":6,
+       "coords":[
+          2.1426013329,
+          41.3393324337
+       ]
+    },
+    {
+       "id":253,
+       "name_borough":"la Marina de Port",
+       "code_borough":13,
+       "name_district":"Sants-Montjuïc",
+       "code_district":3,
+       "action_index":-0.5861435391,
+       "vegetation_index":-0.7694223644,
+       "vulnerability_index":8,
+       "coords":[
+          2.1346606513,
+          41.3556409498
+       ]
+    },
+    {
+       "id":254,
+       "name_borough":"la Marina de Port",
+       "code_borough":13,
+       "name_district":"Sants-Montjuïc",
+       "code_district":3,
+       "action_index":-0.0911985877,
+       "vegetation_index":0.7587158344,
+       "vulnerability_index":6,
+       "coords":[
+          2.1349540817,
+          41.3587807516
+       ]
+    },
+    {
+       "id":267,
+       "name_borough":"la Font de la Guatlla",
+       "code_borough":14,
+       "name_district":"Sants-Montjuïc",
+       "code_district":3,
+       "action_index":0.4037463636,
+       "vegetation_index":2.6281499396,
+       "vulnerability_index":4,
+       "coords":[
+          2.1409532536,
+          41.3672982931
+       ]
+    },
+    {
+       "id":268,
+       "name_borough":"la Font de la Guatlla",
+       "code_borough":14,
+       "name_district":"Sants-Montjuïc",
+       "code_district":3,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.2696810613,
+       "vulnerability_index":5,
+       "coords":[
+          2.1422663838,
+          41.3688043851
+       ]
+    },
+    {
+       "id":274,
+       "name_borough":"Hostafrancs",
+       "code_borough":15,
+       "name_district":"Sants-Montjuïc",
+       "code_district":3,
+       "action_index":-0.3386710634,
+       "vegetation_index":-0.2138520207,
+       "vulnerability_index":7,
+       "coords":[
+          2.1464822846,
+          41.3758697179
+       ]
+    },
+    {
+       "id":275,
+       "name_borough":"Hostafrancs",
+       "code_borough":15,
+       "name_district":"Sants-Montjuïc",
+       "code_district":3,
+       "action_index":-0.3386710634,
+       "vegetation_index":0.1359906475,
+       "vulnerability_index":7,
+       "coords":[
+          2.144219965,
+          41.3783591846
+       ]
+    },
+    {
+       "id":284,
+       "name_borough":"la Bordeta",
+       "code_borough":16,
+       "name_district":"Sants-Montjuïc",
+       "code_district":3,
+       "action_index":-0.0911985877,
+       "vegetation_index":-0.6650637158,
+       "vulnerability_index":6,
+       "coords":[
+          2.1411312064,
+          41.3726909834
+       ]
+    },
+    {
+       "id":285,
+       "name_borough":"la Bordeta",
+       "code_borough":16,
+       "name_district":"Sants-Montjuïc",
+       "code_district":3,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.1993148003,
+       "vulnerability_index":5,
+       "coords":[
+          2.1405651379,
+          41.3704867832
+       ]
+    },
+    {
+       "id":297,
+       "name_borough":"Sants - Badal",
+       "code_borough":17,
+       "name_district":"Sants-Montjuïc",
+       "code_district":3,
+       "action_index":-0.3386710634,
+       "vegetation_index":-1.0712413678,
+       "vulnerability_index":7,
+       "coords":[
+          2.1305177005,
+          41.3710913446
+       ]
+    },
+    {
+       "id":298,
+       "name_borough":"Sants - Badal",
+       "code_borough":17,
+       "name_district":"Sants-Montjuïc",
+       "code_district":3,
+       "action_index":-0.5861435391,
+       "vegetation_index":-0.8187181418,
+       "vulnerability_index":8,
+       "coords":[
+          2.1301159753,
+          41.3717216633
+       ]
+    },
+    {
+       "id":313,
+       "name_borough":"Sants",
+       "code_borough":18,
+       "name_district":"Sants-Montjuïc",
+       "code_district":3,
+       "action_index":-0.8336160147,
+       "vegetation_index":-0.6769017359,
+       "vulnerability_index":9,
+       "coords":[
+          2.1301256726,
+          41.3792945922
+       ]
+    },
+    {
+       "id":314,
+       "name_borough":"Sants",
+       "code_borough":18,
+       "name_district":"Sants-Montjuïc",
+       "code_district":3,
+       "action_index":-0.5861435391,
+       "vegetation_index":-0.7481787888,
+       "vulnerability_index":8,
+       "coords":[
+          2.1317830782,
+          41.3799770081
+       ]
+    },
+    {
+       "id":342,
+       "name_borough":"les Corts",
+       "code_borough":19,
+       "name_district":"Les Corts",
+       "code_district":4,
+       "action_index":-0.3386710634,
+       "vegetation_index":-0.1306496566,
+       "vulnerability_index":7,
+       "coords":[
+          2.1404737348,
+          41.3848869074
+       ]
+    },
+    {
+       "id":343,
+       "name_borough":"les Corts",
+       "code_borough":19,
+       "name_district":"Les Corts",
+       "code_district":4,
+       "action_index":-0.5861435391,
+       "vegetation_index":-0.8530003232,
+       "vulnerability_index":8,
+       "coords":[
+          2.1376097844,
+          41.3844938405
+       ]
+    },
+    {
+       "id":377,
+       "name_borough":"la Maternitat i Sant Ramon",
+       "code_borough":20,
+       "name_district":"Les Corts",
+       "code_district":4,
+       "action_index":-0.8336160147,
+       "vegetation_index":-0.5700264689,
+       "vulnerability_index":9,
+       "coords":[
+          2.1272100716,
+          41.3810600351
+       ]
+    },
+    {
+       "id":378,
+       "name_borough":"la Maternitat i Sant Ramon",
+       "code_borough":20,
+       "name_district":"Les Corts",
+       "code_district":4,
+       "action_index":-0.5861435391,
+       "vegetation_index":-0.1994344824,
+       "vulnerability_index":8,
+       "coords":[
+          2.1276003512,
+          41.3795785806
+       ]
+    },
+    {
+       "id":391,
+       "name_borough":"Pedralbes",
+       "code_borough":21,
+       "name_district":"Les Corts",
+       "code_district":4,
+       "action_index":-0.3386710634,
+       "vegetation_index":1.4170141383,
+       "vulnerability_index":7,
+       "coords":[
+          2.1268296223,
+          41.3901564471
+       ]
+    },
+    {
+       "id":392,
+       "name_borough":"Pedralbes",
+       "code_borough":21,
+       "name_district":"Les Corts",
+       "code_district":4,
+       "action_index":-0.5861435391,
+       "vegetation_index":0.0186559008,
+       "vulnerability_index":8,
+       "coords":[
+          2.1250559297,
+          41.3905262267
+       ]
+    },
+    {
+       "id":398,
+       "name_borough":"Vallvidrera, el Tibidabo i les Planes",
+       "code_borough":22,
+       "name_district":"Sarrià-Sant Gervasi",
+       "code_district":5,
+       "action_index":0.8986913149,
+       "vegetation_index":5.9271888043,
+       "vulnerability_index":2,
+       "coords":[
+          2.0805016957,
+          41.4206489705
+       ]
+    },
+    {
+       "id":399,
+       "name_borough":"Vallvidrera, el Tibidabo i les Planes",
+       "code_borough":22,
+       "name_district":"Sarrià-Sant Gervasi",
+       "code_district":5,
+       "action_index":0.6512188392,
+       "vegetation_index":5.63239889,
+       "vulnerability_index":3,
+       "coords":[
+          2.1131469473,
+          41.4195772421
+       ]
+    },
+    {
+       "id":401,
+       "name_borough":"Sarrià",
+       "code_borough":23,
+       "name_district":"Sarrià-Sant Gervasi",
+       "code_district":5,
+       "action_index":0.6512188392,
+       "vegetation_index":4.2902453664,
+       "vulnerability_index":3,
+       "coords":[
+          2.1160237474,
+          41.4095427394
+       ]
+    },
+    {
+       "id":402,
+       "name_borough":"Sarrià",
+       "code_borough":23,
+       "name_district":"Sarrià-Sant Gervasi",
+       "code_district":5,
+       "action_index":0.4037463636,
+       "vegetation_index":4.4381689326,
+       "vulnerability_index":4,
+       "coords":[
+          2.1100747284,
+          41.4038499152
+       ]
+    },
+    {
+       "id":417,
+       "name_borough":"les Tres Torres",
+       "code_borough":24,
+       "name_district":"Sarrià-Sant Gervasi",
+       "code_district":5,
+       "action_index":-0.5861435391,
+       "vegetation_index":0.0767895672,
+       "vulnerability_index":8,
+       "coords":[
+          2.1314237535,
+          41.393034301
+       ]
+    },
+    {
+       "id":418,
+       "name_borough":"les Tres Torres",
+       "code_borough":24,
+       "name_district":"Sarrià-Sant Gervasi",
+       "code_district":5,
+       "action_index":-0.0911985877,
+       "vegetation_index":0.8844133494,
+       "vulnerability_index":6,
+       "coords":[
+          2.1339514164,
+          41.3934240324
+       ]
+    },
+    {
+       "id":428,
+       "name_borough":"Sant Gervasi - la Bonanova",
+       "code_borough":25,
+       "name_district":"Sarrià-Sant Gervasi",
+       "code_district":5,
+       "action_index":0.4037463636,
+       "vegetation_index":1.5983769348,
+       "vulnerability_index":4,
+       "coords":[
+          2.1282957817,
+          41.4054811304
+       ]
+    },
+    {
+       "id":429,
+       "name_borough":"Sant Gervasi - la Bonanova",
+       "code_borough":25,
+       "name_district":"Sarrià-Sant Gervasi",
+       "code_district":5,
+       "action_index":0.6512188392,
+       "vegetation_index":3.2056890102,
+       "vulnerability_index":3,
+       "coords":[
+          2.1258865187,
+          41.4108465902
+       ]
+    },
+    {
+       "id":446,
+       "name_borough":"Sant Gervasi - Galvany",
+       "code_borough":26,
+       "name_district":"Sarrià-Sant Gervasi",
+       "code_district":5,
+       "action_index":-0.3386710634,
+       "vegetation_index":0.4425678386,
+       "vulnerability_index":7,
+       "coords":[
+          2.1356561458,
+          41.3990348455
+       ]
+    },
+    {
+       "id":447,
+       "name_borough":"Sant Gervasi - Galvany",
+       "code_borough":26,
+       "name_district":"Sarrià-Sant Gervasi",
+       "code_district":5,
+       "action_index":-0.0911985877,
+       "vegetation_index":-0.7777470163,
+       "vulnerability_index":6,
+       "coords":[
+          2.1377924679,
+          41.4014738226
+       ]
+    },
+    {
+       "id":477,
+       "name_borough":"el Putxet i el Farró",
+       "code_borough":27,
+       "name_district":"Sarrià-Sant Gervasi",
+       "code_district":5,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.2341023759,
+       "vulnerability_index":5,
+       "coords":[
+          2.1459728582,
+          41.4031096515
+       ]
+    },
+    {
+       "id":478,
+       "name_borough":"el Putxet i el Farró",
+       "code_borough":27,
+       "name_district":"Sarrià-Sant Gervasi",
+       "code_district":5,
+       "action_index":-0.0911985877,
+       "vegetation_index":-0.5126730891,
+       "vulnerability_index":6,
+       "coords":[
+          2.1482608661,
+          41.4018330457
+       ]
+    },
+    {
+       "id":496,
+       "name_borough":"Vallcarca i els Penitents",
+       "code_borough":28,
+       "name_district":"Gràcia",
+       "code_district":6,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.4474123762,
+       "vulnerability_index":5,
+       "coords":[
+          2.1477768785,
+          41.4088001992
+       ]
+    },
+    {
+       "id":497,
+       "name_borough":"Vallcarca i els Penitents",
+       "code_borough":28,
+       "name_district":"Gràcia",
+       "code_district":6,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.115902169,
+       "vulnerability_index":5,
+       "coords":[
+          2.1489097322,
+          41.4090929057
+       ]
+    },
+    {
+       "id":508,
+       "name_borough":"el Coll",
+       "code_borough":29,
+       "name_district":"Gràcia",
+       "code_district":6,
+       "action_index":0.4037463636,
+       "vegetation_index":-0.0788017326,
+       "vulnerability_index":4,
+       "coords":[
+          2.1463451405,
+          41.4149614554
+       ]
+    },
+    {
+       "id":509,
+       "name_borough":"el Coll",
+       "code_borough":29,
+       "name_district":"Gràcia",
+       "code_district":6,
+       "action_index":0.6512188392,
+       "vegetation_index":0.8869203211,
+       "vulnerability_index":3,
+       "coords":[
+          2.147274225,
+          41.417153999
+       ]
+    },
+    {
+       "id":513,
+       "name_borough":"la Salut",
+       "code_borough":30,
+       "name_district":"Gràcia",
+       "code_district":6,
+       "action_index":0.6512188392,
+       "vegetation_index":3.5124416462,
+       "vulnerability_index":3,
+       "coords":[
+          2.1519329708,
+          41.4136506973
+       ]
+    },
+    {
+       "id":514,
+       "name_borough":"la Salut",
+       "code_borough":30,
+       "name_district":"Gràcia",
+       "code_district":6,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.2567563339,
+       "vulnerability_index":5,
+       "coords":[
+          2.1495563046,
+          41.4101301389
+       ]
+    },
+    {
+       "id":523,
+       "name_borough":"la Vila de Gràcia",
+       "code_borough":31,
+       "name_district":"Gràcia",
+       "code_district":6,
+       "action_index":-0.0911985877,
+       "vegetation_index":-0.5752848744,
+       "vulnerability_index":6,
+       "coords":[
+          2.1557645797,
+          41.4088127392
+       ]
+    },
+    {
+       "id":524,
+       "name_borough":"la Vila de Gràcia",
+       "code_borough":31,
+       "name_district":"Gràcia",
+       "code_district":6,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.3764411166,
+       "vulnerability_index":5,
+       "coords":[
+          2.1581045784,
+          41.4094772805
+       ]
+    },
+    {
+       "id":559,
+       "name_borough":"el Camp d'en Grassot i Gràcia Nova",
+       "code_borough":32,
+       "name_district":"Gràcia",
+       "code_district":6,
+       "action_index":0.4037463636,
+       "vegetation_index":0.2633609671,
+       "vulnerability_index":4,
+       "coords":[
+          2.1634591443,
+          41.4031608914
+       ]
+    },
+    {
+       "id":560,
+       "name_borough":"el Camp d'en Grassot i Gràcia Nova",
+       "code_borough":32,
+       "name_district":"Gràcia",
+       "code_district":6,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.0488783017,
+       "vulnerability_index":5,
+       "coords":[
+          2.1640617941,
+          41.404395491
+       ]
+    },
+    {
+       "id":584,
+       "name_borough":"el Baix Guinardó",
+       "code_borough":33,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.4834970048,
+       "vulnerability_index":5,
+       "coords":[
+          2.1652397057,
+          41.4106151528
+       ]
+    },
+    {
+       "id":585,
+       "name_borough":"el Baix Guinardó",
+       "code_borough":33,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.1381451609,
+       "vulnerability_index":5,
+       "coords":[
+          2.1671818428,
+          41.4090276968
+       ]
+    },
+    {
+       "id":603,
+       "name_borough":"Can Baró",
+       "code_borough":34,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":-0.0911985877,
+       "vegetation_index":-0.5927753255,
+       "vulnerability_index":6,
+       "coords":[
+          2.1633916616,
+          41.4147655428
+       ]
+    },
+    {
+       "id":604,
+       "name_borough":"Can Baró",
+       "code_borough":34,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.4037463636,
+       "vegetation_index":1.4213799473,
+       "vulnerability_index":4,
+       "coords":[
+          2.1578886879,
+          41.4159058336
+       ]
+    },
+    {
+       "id":610,
+       "name_borough":"el Guinardó",
+       "code_borough":35,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.4037463636,
+       "vegetation_index":1.8868698915,
+       "vulnerability_index":4,
+       "coords":[
+          2.1685911885,
+          41.4166233947
+       ]
+    },
+    {
+       "id":611,
+       "name_borough":"el Guinardó",
+       "code_borough":35,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.6512188392,
+       "vegetation_index":4.5899784031,
+       "vulnerability_index":3,
+       "coords":[
+          2.168137155,
+          41.4199257477
+       ]
+    },
+    {
+       "id":635,
+       "name_borough":"la Font d'en Fargues",
+       "code_borough":36,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.4037463636,
+       "vegetation_index":1.3693590881,
+       "vulnerability_index":4,
+       "coords":[
+          2.1706526385,
+          41.4244522343
+       ]
+    },
+    {
+       "id":636,
+       "name_borough":"la Font d'en Fargues",
+       "code_borough":36,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.4037463636,
+       "vegetation_index":-0.0375321861,
+       "vulnerability_index":4,
+       "coords":[
+          2.1689305809,
+          41.4261689709
+       ]
+    },
+    {
+       "id":642,
+       "name_borough":"el Carmel",
+       "code_borough":37,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.4037463636,
+       "vegetation_index":0.568929409,
+       "vulnerability_index":4,
+       "coords":[
+          2.1602114932,
+          41.421058498
+       ]
+    },
+    {
+       "id":643,
+       "name_borough":"el Carmel",
+       "code_borough":37,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.4037463636,
+       "vegetation_index":2.4757885667,
+       "vulnerability_index":4,
+       "coords":[
+          2.1606649764,
+          41.4194359001
+       ]
+    },
+    {
+       "id":664,
+       "name_borough":"la Teixonera",
+       "code_borough":38,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.4037463636,
+       "vegetation_index":0.4597546924,
+       "vulnerability_index":4,
+       "coords":[
+          2.1498613815,
+          41.4247959671
+       ]
+    },
+    {
+       "id":665,
+       "name_borough":"la Teixonera",
+       "code_borough":38,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.1562738879,
+       "vegetation_index":-1.094937172,
+       "vulnerability_index":5,
+       "coords":[
+          2.150606381,
+          41.4233761895
+       ]
+    },
+    {
+       "id":672,
+       "name_borough":"Sant Genís dels Agudells",
+       "code_borough":39,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.6512188392,
+       "vegetation_index":1.4084009473,
+       "vulnerability_index":3,
+       "coords":[
+          2.139958027,
+          41.4227218189
+       ]
+    },
+    {
+       "id":673,
+       "name_borough":"Sant Genís dels Agudells",
+       "code_borough":39,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.8986913149,
+       "vegetation_index":5.5813683493,
+       "vulnerability_index":2,
+       "coords":[
+          2.1285156251,
+          41.4253076452
+       ]
+    },
+    {
+       "id":677,
+       "name_borough":"Montbau",
+       "code_borough":40,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.6512188392,
+       "vegetation_index":1.1167382184,
+       "vulnerability_index":3,
+       "coords":[
+          2.1416674482,
+          41.428459439
+       ]
+    },
+    {
+       "id":678,
+       "name_borough":"Montbau",
+       "code_borough":40,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.6512188392,
+       "vegetation_index":1.8923196629,
+       "vulnerability_index":3,
+       "coords":[
+          2.1413952199,
+          41.4311789779
+       ]
+    },
+    {
+       "id":681,
+       "name_borough":"la Vall d'Hebron",
+       "code_borough":41,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.1562738879,
+       "vegetation_index":0.2682956192,
+       "vulnerability_index":5,
+       "coords":[
+          2.1501954654,
+          41.4348816195
+       ]
+    },
+    {
+       "id":682,
+       "name_borough":"la Vall d'Hebron",
+       "code_borough":41,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.6512188392,
+       "vegetation_index":0.7408898656,
+       "vulnerability_index":3,
+       "coords":[
+          2.1488640008,
+          41.4326815883
+       ]
+    },
+    {
+       "id":685,
+       "name_borough":"la Clota",
+       "code_borough":42,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.6512188392,
+       "vegetation_index":1.3825759623,
+       "vulnerability_index":3,
+       "coords":[
+          2.1530578042,
+          41.428853199
+       ]
+    },
+    {
+       "id":686,
+       "name_borough":"Horta",
+       "code_borough":43,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.1562738879,
+       "vegetation_index":4.9043679502,
+       "vulnerability_index":5,
+       "coords":[
+          2.1485623082,
+          41.443114415
+       ]
+    },
+    {
+       "id":687,
+       "name_borough":"Horta",
+       "code_borough":43,
+       "name_district":"Horta-Guinardó",
+       "code_district":7,
+       "action_index":0.4037463636,
+       "vegetation_index":0.5322235471,
+       "vulnerability_index":4,
+       "coords":[
+          2.1614556384,
+          41.4381847125
+       ]
+    },
+    {
+       "id":707,
+       "name_borough":"Vilapicina i la Torre Llobeta",
+       "code_borough":44,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.7014168057,
+       "vulnerability_index":5,
+       "coords":[
+          2.1661008716,
+          41.4300963253
+       ]
+    },
+    {
+       "id":708,
+       "name_borough":"Vilapicina i la Torre Llobeta",
+       "code_borough":44,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.8010270702,
+       "vulnerability_index":5,
+       "coords":[
+          2.1655574211,
+          41.4284463126
+       ]
+    },
+    {
+       "id":726,
+       "name_borough":"Porta",
+       "code_borough":45,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.3386710634,
+       "vegetation_index":-0.6312064608,
+       "vulnerability_index":7,
+       "coords":[
+          2.1810513741,
+          41.4308331831
+       ]
+    },
+    {
+       "id":727,
+       "name_borough":"Porta",
+       "code_borough":45,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.3386710634,
+       "vegetation_index":-0.9863832182,
+       "vulnerability_index":7,
+       "coords":[
+          2.1797721948,
+          41.4316035522
+       ]
+    },
+    {
+       "id":744,
+       "name_borough":"el Turó de la Peira",
+       "code_borough":46,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.0911985877,
+       "vegetation_index":-0.7217208845,
+       "vulnerability_index":6,
+       "coords":[
+          2.1731245555,
+          41.4323341279
+       ]
+    },
+    {
+       "id":745,
+       "name_borough":"el Turó de la Peira",
+       "code_borough":46,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.3386710634,
+       "vegetation_index":-0.8049129744,
+       "vulnerability_index":7,
+       "coords":[
+          2.1713842515,
+          41.4343872118
+       ]
+    },
+    {
+       "id":754,
+       "name_borough":"Can Peguera",
+       "code_borough":47,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.0911985877,
+       "vegetation_index":-0.8223827988,
+       "vulnerability_index":6,
+       "coords":[
+          2.1677376924,
+          41.4343795064
+       ]
+    },
+    {
+       "id":755,
+       "name_borough":"Can Peguera",
+       "code_borough":47,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.0911985877,
+       "vegetation_index":-0.6903651112,
+       "vulnerability_index":6,
+       "coords":[
+          2.1652571711,
+          41.4352619812
+       ]
+    },
+    {
+       "id":756,
+       "name_borough":"la Guineueta",
+       "code_borough":48,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.0911985877,
+       "vegetation_index":0.5263041449,
+       "vulnerability_index":6,
+       "coords":[
+          2.170354303,
+          41.4366418676
+       ]
+    },
+    {
+       "id":757,
+       "name_borough":"la Guineueta",
+       "code_borough":48,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":0.4037463636,
+       "vegetation_index":1.1475763626,
+       "vulnerability_index":4,
+       "coords":[
+          2.1647174414,
+          41.4378699068
+       ]
+    },
+    {
+       "id":766,
+       "name_borough":"Canyelles",
+       "code_borough":49,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.0911985877,
+       "vegetation_index":0.3685922913,
+       "vulnerability_index":6,
+       "coords":[
+          2.163671031,
+          41.4411978432
+       ]
+    },
+    {
+       "id":767,
+       "name_borough":"Canyelles",
+       "code_borough":49,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":0.1562738879,
+       "vegetation_index":1.8989990387,
+       "vulnerability_index":5,
+       "coords":[
+          2.162875642,
+          41.4427891319
+       ]
+    },
+    {
+       "id":771,
+       "name_borough":"les Roquetes",
+       "code_borough":50,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.0911985877,
+       "vegetation_index":3.1291157491,
+       "vulnerability_index":6,
+       "coords":[
+          2.171095472,
+          41.4478063857
+       ]
+    },
+    {
+       "id":772,
+       "name_borough":"les Roquetes",
+       "code_borough":50,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.3386710634,
+       "vegetation_index":2.0276192757,
+       "vulnerability_index":7,
+       "coords":[
+          2.175946991,
+          41.449756682
+       ]
+    },
+    {
+       "id":781,
+       "name_borough":"Verdun",
+       "code_borough":51,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.8336160147,
+       "vegetation_index":-0.765472933,
+       "vulnerability_index":9,
+       "coords":[
+          2.1780533237,
+          41.4446817398
+       ]
+    },
+    {
+       "id":782,
+       "name_borough":"Verdun",
+       "code_borough":51,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.8336160147,
+       "vegetation_index":-0.6566407144,
+       "vulnerability_index":9,
+       "coords":[
+          2.1769858124,
+          41.442623879
+       ]
+    },
+    {
+       "id":789,
+       "name_borough":"la Prosperitat",
+       "code_borough":52,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.8336160147,
+       "vegetation_index":-0.9010033612,
+       "vulnerability_index":9,
+       "coords":[
+          2.1764642019,
+          41.4391472538
+       ]
+    },
+    {
+       "id":790,
+       "name_borough":"la Prosperitat",
+       "code_borough":52,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.8336160147,
+       "vegetation_index":-1.1685824563,
+       "vulnerability_index":9,
+       "coords":[
+          2.179354534,
+          41.4395095877
+       ]
+    },
+    {
+       "id":809,
+       "name_borough":"la Trinitat Nova",
+       "code_borough":53,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.5861435391,
+       "vegetation_index":-0.0488866936,
+       "vulnerability_index":8,
+       "coords":[
+          2.1812076404,
+          41.4482996339
+       ]
+    },
+    {
+       "id":810,
+       "name_borough":"la Trinitat Nova",
+       "code_borough":53,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.5861435391,
+       "vegetation_index":-0.0625757082,
+       "vulnerability_index":8,
+       "coords":[
+          2.1836907933,
+          41.447486008
+       ]
+    },
+    {
+       "id":814,
+       "name_borough":"Torre Baró",
+       "code_borough":54,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.0911985877,
+       "vegetation_index":3.3102707882,
+       "vulnerability_index":6,
+       "coords":[
+          2.18115377,
+          41.456559075
+       ]
+    },
+    {
+       "id":815,
+       "name_borough":"Torre Baró",
+       "code_borough":54,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.0911985877,
+       "vegetation_index":5.7427337231,
+       "vulnerability_index":6,
+       "coords":[
+          2.1706810902,
+          41.4540284299
+       ]
+    },
+    {
+       "id":816,
+       "name_borough":"Ciutat Meridiana",
+       "code_borough":55,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.3386710634,
+       "vegetation_index":2.6423825431,
+       "vulnerability_index":7,
+       "coords":[
+          2.1709081774,
+          41.4602614828
+       ]
+    },
+    {
+       "id":817,
+       "name_borough":"Ciutat Meridiana",
+       "code_borough":55,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.3386710634,
+       "vegetation_index":1.1658587078,
+       "vulnerability_index":7,
+       "coords":[
+          2.1740789039,
+          41.4599935531
+       ]
+    },
+    {
+       "id":822,
+       "name_borough":"Vallbona",
+       "code_borough":56,
+       "name_district":"Nou Barris",
+       "code_district":8,
+       "action_index":-0.3386710634,
+       "vegetation_index":1.8486133384,
+       "vulnerability_index":7,
+       "coords":[
+          2.1841521865,
+          41.4633811851
+       ]
+    },
+    {
+       "id":823,
+       "name_borough":"la Trinitat Vella",
+       "code_borough":57,
+       "name_district":"Sant Andreu",
+       "code_district":9,
+       "action_index":-0.3386710634,
+       "vegetation_index":0.2092150837,
+       "vulnerability_index":7,
+       "coords":[
+          2.1905262302,
+          41.4554691156
+       ]
+    },
+    {
+       "id":824,
+       "name_borough":"la Trinitat Vella",
+       "code_borough":57,
+       "name_district":"Sant Andreu",
+       "code_district":9,
+       "action_index":-0.5861435391,
+       "vegetation_index":-0.6881293458,
+       "vulnerability_index":8,
+       "coords":[
+          2.192345493,
+          41.451916457
+       ]
+    },
+    {
+       "id":828,
+       "name_borough":"Baró de Viver",
+       "code_borough":58,
+       "name_district":"Sant Andreu",
+       "code_district":9,
+       "action_index":-0.0911985877,
+       "vegetation_index":-0.1425636741,
+       "vulnerability_index":6,
+       "coords":[
+          2.2000099368,
+          41.4478592895
+       ]
+    },
+    {
+       "id":829,
+       "name_borough":"Baró de Viver",
+       "code_borough":58,
+       "name_district":"Sant Andreu",
+       "code_district":9,
+       "action_index":-0.0911985877,
+       "vegetation_index":-0.0217209708,
+       "vulnerability_index":6,
+       "coords":[
+          2.198757743,
+          41.4453244344
+       ]
+    },
+    {
+       "id":830,
+       "name_borough":"el Bon Pastor",
+       "code_borough":59,
+       "name_district":"Sant Andreu",
+       "code_district":9,
+       "action_index":-0.0911985877,
+       "vegetation_index":-0.6574005311,
+       "vulnerability_index":6,
+       "coords":[
+          2.1968330786,
+          41.4394358768
+       ]
+    },
+    {
+       "id":831,
+       "name_borough":"el Bon Pastor",
+       "code_borough":59,
+       "name_district":"Sant Andreu",
+       "code_district":9,
+       "action_index":-0.0911985877,
+       "vegetation_index":-0.7783840138,
+       "vulnerability_index":6,
+       "coords":[
+          2.2025638752,
+          41.4411041043
+       ]
+    },
+    {
+       "id":838,
+       "name_borough":"Sant Andreu",
+       "code_borough":60,
+       "name_district":"Sant Andreu",
+       "code_district":9,
+       "action_index":-0.0911985877,
+       "vegetation_index":-1.1330585141,
+       "vulnerability_index":6,
+       "coords":[
+          2.1950823177,
+          41.4314752849
+       ]
+    },
+    {
+       "id":839,
+       "name_borough":"Sant Andreu",
+       "code_borough":60,
+       "name_district":"Sant Andreu",
+       "code_district":9,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.3858109871,
+       "vulnerability_index":5,
+       "coords":[
+          2.1940555167,
+          41.4314150632
+       ]
+    },
+    {
+       "id":877,
+       "name_borough":"la Sagrera",
+       "code_borough":61,
+       "name_district":"Sant Andreu",
+       "code_district":9,
+       "action_index":0.1562738879,
+       "vegetation_index":0.1152411724,
+       "vulnerability_index":5,
+       "coords":[
+          2.1856454101,
+          41.4274035855
+       ]
+    },
+    {
+       "id":878,
+       "name_borough":"la Sagrera",
+       "code_borough":61,
+       "name_district":"Sant Andreu",
+       "code_district":9,
+       "action_index":-0.0911985877,
+       "vegetation_index":-0.6357517931,
+       "vulnerability_index":6,
+       "coords":[
+          2.1873617459,
+          41.4257156905
+       ]
+    },
+    {
+       "id":896,
+       "name_borough":"el Congrés i els Indians",
+       "code_borough":62,
+       "name_district":"Sant Andreu",
+       "code_district":9,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.1985563953,
+       "vulnerability_index":5,
+       "coords":[
+          2.1830364971,
+          41.4244468779
+       ]
+    },
+    {
+       "id":897,
+       "name_borough":"el Congrés i els Indians",
+       "code_borough":62,
+       "name_district":"Sant Andreu",
+       "code_district":9,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.0374868544,
+       "vulnerability_index":5,
+       "coords":[
+          2.1823667262,
+          41.4267742508
+       ]
+    },
+    {
+       "id":905,
+       "name_borough":"Navas",
+       "code_borough":63,
+       "name_district":"Sant Andreu",
+       "code_district":9,
+       "action_index":0.1562738879,
+       "vegetation_index":0.2628412205,
+       "vulnerability_index":5,
+       "coords":[
+          2.1844996785,
+          41.4208363314
+       ]
+    },
+    {
+       "id":906,
+       "name_borough":"Navas",
+       "code_borough":63,
+       "name_district":"Sant Andreu",
+       "code_district":9,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.3539850341,
+       "vulnerability_index":5,
+       "coords":[
+          2.1817532714,
+          41.4192546423
+       ]
+    },
+    {
+       "id":918,
+       "name_borough":"el Camp de l'Arpa del Clot",
+       "code_borough":64,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.4037463636,
+       "vegetation_index":-0.4751598827,
+       "vulnerability_index":4,
+       "coords":[
+          2.1857779768,
+          41.4152283871
+       ]
+    },
+    {
+       "id":919,
+       "name_borough":"el Camp de l'Arpa del Clot",
+       "code_borough":64,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.5031193034,
+       "vulnerability_index":5,
+       "coords":[
+          2.1853169481,
+          41.4138031349
+       ]
+    },
+    {
+       "id":943,
+       "name_borough":"el Clot",
+       "code_borough":65,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.7204449288,
+       "vulnerability_index":5,
+       "coords":[
+          2.1879012177,
+          41.4105688158
+       ]
+    },
+    {
+       "id":944,
+       "name_borough":"el Clot",
+       "code_borough":65,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.8428202063,
+       "vulnerability_index":5,
+       "coords":[
+          2.1885423286,
+          41.4125343603
+       ]
+    },
+    {
+       "id":959,
+       "name_borough":"el Parc i la Llacuna del Poblenou",
+       "code_borough":66,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.4037463636,
+       "vegetation_index":-0.2943421652,
+       "vulnerability_index":4,
+       "coords":[
+          2.1915659592,
+          41.4023343619
+       ]
+    },
+    {
+       "id":960,
+       "name_borough":"el Parc i la Llacuna del Poblenou",
+       "code_borough":66,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.4037463636,
+       "vegetation_index":-0.3516820553,
+       "vulnerability_index":4,
+       "coords":[
+          2.1906142533,
+          41.3970172459
+       ]
+    },
+    {
+       "id":968,
+       "name_borough":"la Vila Olímpica del Poblenou",
+       "code_borough":67,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.6512188392,
+       "vegetation_index":0.8658410535,
+       "vulnerability_index":3,
+       "coords":[
+          2.19027449,
+          41.3913683198
+       ]
+    },
+    {
+       "id":969,
+       "name_borough":"la Vila Olímpica del Poblenou",
+       "code_borough":67,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.6512188392,
+       "vegetation_index":0.9149209169,
+       "vulnerability_index":3,
+       "coords":[
+          2.1953409292,
+          41.393882214
+       ]
+    },
+    {
+       "id":973,
+       "name_borough":"el Poblenou",
+       "code_borough":68,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.5951576741,
+       "vulnerability_index":5,
+       "coords":[
+          2.1976912298,
+          41.3968961653
+       ]
+    },
+    {
+       "id":974,
+       "name_borough":"el Poblenou",
+       "code_borough":68,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.4037463636,
+       "vegetation_index":-0.4132835228,
+       "vulnerability_index":4,
+       "coords":[
+          2.2004911833,
+          41.3980504539
+       ]
+    },
+    {
+       "id":993,
+       "name_borough":"Diagonal Mar i el Front Marítim del Poblenou",
+       "code_borough":69,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.4037463636,
+       "vegetation_index":0.3671623017,
+       "vulnerability_index":4,
+       "coords":[
+          2.2101401159,
+          41.4096946401
+       ]
+    },
+    {
+       "id":994,
+       "name_borough":"Diagonal Mar i el Front Marítim del Poblenou",
+       "code_borough":69,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.4037463636,
+       "vegetation_index":0.2096909888,
+       "vulnerability_index":4,
+       "coords":[
+          2.2097791334,
+          41.4048374193
+       ]
+    },
+    {
+       "id":998,
+       "name_borough":"el Besòs i el Maresme",
+       "code_borough":70,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.4037463636,
+       "vegetation_index":-0.3044181289,
+       "vulnerability_index":4,
+       "coords":[
+          2.2227241796,
+          41.4095971339
+       ]
+    },
+    {
+       "id":999,
+       "name_borough":"el Besòs i el Maresme",
+       "code_borough":70,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.6512188392,
+       "vegetation_index":0.5108466427,
+       "vulnerability_index":3,
+       "coords":[
+          2.2175168558,
+          41.4153965641
+       ]
+    },
+    {
+       "id":1011,
+       "name_borough":"Provençals del Poblenou",
+       "code_borough":71,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.4037463636,
+       "vegetation_index":0.0928106576,
+       "vulnerability_index":4,
+       "coords":[
+          2.207657328,
+          41.4115048845
+       ]
+    },
+    {
+       "id":1012,
+       "name_borough":"Provençals del Poblenou",
+       "code_borough":71,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.4037463636,
+       "vegetation_index":0.0220965656,
+       "vulnerability_index":4,
+       "coords":[
+          2.2048765795,
+          41.4099835984
+       ]
+    },
+    {
+       "id":1022,
+       "name_borough":"Sant Martí de Provençals",
+       "code_borough":72,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.4037463636,
+       "vegetation_index":0.396152667,
+       "vulnerability_index":4,
+       "coords":[
+          2.1999009798,
+          41.4140345313
+       ]
+    },
+    {
+       "id":1023,
+       "name_borough":"Sant Martí de Provençals",
+       "code_borough":72,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.4037463636,
+       "vegetation_index":0.3581741434,
+       "vulnerability_index":4,
+       "coords":[
+          2.1981385397,
+          41.4127873193
+       ]
+    },
+    {
+       "id":1040,
+       "name_borough":"la Verneda i la Pau",
+       "code_borough":73,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.1562738879,
+       "vegetation_index":0.0224302795,
+       "vulnerability_index":5,
+       "coords":[
+          2.2049481455,
+          41.417896743
+       ]
+    },
+    {
+       "id":1041,
+       "name_borough":"la Verneda i la Pau",
+       "code_borough":73,
+       "name_district":"Sant Martí",
+       "code_district":10,
+       "action_index":0.1562738879,
+       "vegetation_index":-0.264421793,
+       "vulnerability_index":5,
+       "coords":[
+          2.2060808874,
+          41.4187378888
+       ]
+    }
+ ]
