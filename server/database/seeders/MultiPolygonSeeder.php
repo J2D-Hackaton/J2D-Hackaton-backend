@@ -14,7 +14,7 @@ class MultiPolygonSeeder extends Seeder
      */
     public function run(): void
     {
-        $jsonContent = file_get_contents(database_path('barrios_fake.json'));
+        $jsonContent = file_get_contents(database_path('output.json'));
         $multipolygons = json_decode($jsonContent, true);
 
         foreach($multipolygons as $multipolygon){
@@ -23,7 +23,6 @@ class MultiPolygonSeeder extends Seeder
                 "code_borough" =>  $multipolygon['code_borough'],
                 "name_district" => $multipolygon['name_district'],
                 "code_district" => $multipolygon['code_district'],
-                "code_census" => $multipolygon['code_census'],
                 "action_index" => $multipolygon['action_index'],
                 "vegetation_index" => $multipolygon['vegetation_index'],
                 "vulnerability_index" => $multipolygon['vulnerability_index'],

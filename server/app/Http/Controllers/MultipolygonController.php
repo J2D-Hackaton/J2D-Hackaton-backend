@@ -106,23 +106,27 @@ class MultipolygonController extends Controller
         
         $info_borough = [];
         $count_all = Multipolygons::all()->count();
-
+        
         foreach ($boroughs as $borough) {
-            $info_borough[$borough] = [];
-            $counter = 1; // Inicializamos un contador
-
-
+            $info_borough[$borough] = [
+                "coords" => [], // Inicializamos un array para almacenar las coordenadas
+                "average_veg" => 1,
+            ];
+        
             for ($i = 1; $i <= $count_all; $i++) {
                 $row = Multipolygons::where('name_borough', '=', $borough)->first();
-
+        
                 if ($row && $row->name_borough == $borough) {
-                    $info_borough[$borough][] = [
-                        "coords" => json_decode($row->coords, true),
-                    ];
+                    $coords = json_decode($row->coords, true);
+        
+                    if (!in_array($coords, $info_borough[$borough]["coords"])) {
+                        $info_borough[$borough]["coords"][] = $coords;
+                    }
                 }
             }
         }
         
         return $info_borough;
+        
     }
 }
