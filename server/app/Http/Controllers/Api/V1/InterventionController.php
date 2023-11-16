@@ -29,10 +29,10 @@ class InterventionController extends Controller
         ]);
 
         Intervention::create([
-            'barrio_id' => $request->zone_id,
+            'barrio_id' => $request->barrio_id,
             'title' => $request->title,
             'description' => $request->description,
-            'startDate'  => $request->startdate,
+            'startDate'  => $request->startDate,
             'endDate' => $request->endDate,
             'budget' => $request->budget,
             'status' => $request->status,
@@ -58,43 +58,22 @@ class InterventionController extends Controller
     }
 
 
-    public function update(Request $request, Intervention $Intervention)
+    public function update(Request $request, $id)
     {
-        try {
-            $validator = Validator::make($request->all(), [
-                'barrio_id' => 'required',
-                'title' => 'required',
-                'description' => 'required',
-                'startDate' => 'required',
-                'endDate' => 'required',
-                'budget' => 'required',
-                'status' => 'required'
-            ]);
+        $Intervention = Intervention::findOrFail($id);
+        $Intervention->update([
+            'barrio_id' => $request->barrio_id,
+            'title' => $request->title,
+            'description' => $request->description,
+            'startDate'  => $request->startDate,
+            'endDate' => $request->endDate,
+            'budget' => $request->budget,
+            'status' => $request->status,
+        ]);
 
-            if ($validator->fails()) {
-                return response()->json([
-                    'status' => false,
-                    'errors' => $validator->errors()->all()
-                ], 400);
-            }
-
-            $Intervention->fill($request->all());
-
-
-            $Intervention->save();
-
-            return response()->json([
-                'status' => true,
-                'message' => 'Intervention updated successfully',
-                'Intervention' => $Intervention,
-            ], 200);
-        } catch (\Exception $e) {
-            return response()->json([
-                'status' => false,
-                'message' => 'Failed to update Intervention.',
-                'error' => $e->getMessage()
-            ], 500);
-        }
+        return response([
+            'message' => 'Intervention updated successfully'
+        ], 201);
     }
 
 

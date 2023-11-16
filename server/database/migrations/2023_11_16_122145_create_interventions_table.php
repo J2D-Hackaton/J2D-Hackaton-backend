@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('description');
             $table->date('startDate');
             $table->date('endDate');
-            $table->float('budget');
+            $table->string('budget');
             $table->string('status');
             $table->timestamps();
         });
