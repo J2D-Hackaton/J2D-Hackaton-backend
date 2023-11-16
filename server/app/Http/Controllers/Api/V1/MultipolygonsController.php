@@ -1,11 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api\V1;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Multipolygons;
 
-class MultipolygonController extends Controller
+
+class MultipolygonsController extends Controller
 {
     public function getAllMultipolygons(){
 
@@ -105,26 +107,107 @@ class MultipolygonController extends Controller
         ];
         
         $info_borough = [];
-
         $all_multipolygons = Multipolygons::all();
 
-        foreach ($boroughs as $borough) {
-            $i=0;
-            $info_borough[$borough] = [
+        foreach ($boroughs as $borough_name) {
+            $borough = Multipolygons::where('name_borough', $borough_name)->first();
+
+            $i = 0;
+            $info_borough[$borough_name] = [
                 "id" => "",
                 "coords" => [], // Inicializamos un array para almacenar las coordenadas
-                "average_veg" => 1,
+                "average_veg" => $this->vegetationMedianBorough($borough->code_borough),
+                "average_vul" => $this->vulnerabilityMedianBorough($borough->code_borough),
+                "avareage_action" => $this->indexActionMedianBorough($borough->code_borough),
             ];
-            $borough_multipolygons = $all_multipolygons->where('name_borough', $borough);
+
+            $borough_multipolygons = $all_multipolygons->where('name_borough', $borough_name);
+
             foreach ($borough_multipolygons as $row) {
                 $coords = json_decode($row->coords, true);
-                if (!in_array($coords, $info_borough[$borough]["coords"])) {
-                    $info_borough[$borough]["id"] = $boroughs[$i];
-                    $info_borough[$borough]["coords"][] = $coords;
+                if (!in_array($coords, $info_borough[$borough_name]["coords"])) {
+                    $info_borough[$borough_name]["id"] = $boroughs[$i];
+                    $info_borough[$borough_name]["coords"][] = $coords;
                 }
+                $i++;
             }
-            $i++;
         }
+
         return $info_borough;
+    }
+
+    public function vegetationMedianBorough($code){
+
+        $allMultipolygons = Multipolygons::all();
+        $areasBorough = array();
+
+        foreach($allMultipolygons as $multipolygon) {
+            if($multipolygon -> code_borough == $code){
+                array_push($areasBorough, $multipolygon);
+            };
+        };
+        if(!$areasBorough){
+            return response()->json(["message" => "Not found!"], 404);
+        }
+        $numberOfAreas =  count($areasBorough);
+        $sum = 0;
+        foreach($areasBorough as $area){
+            $vi= $area -> vegetation_index;
+            $sum += $vi; 
+        };
+       $vegetationIndexMedian = round(($sum/$numberOfAreas),2);
+        return  $vegetationIndexMedian;
+    }
+
+    public function vulnerabilityMedianBorough($code){
+        $allMultipolygons = Multipolygons::all();
+        $areasBorough = array();
+        foreach($allMultipolygons as $multipolygon) {
+
+            if($multipolygon -> code_borough == $code){
+                array_push($areasBorough, $multipolygon);
+            };
+        };
+
+        if(!$areasBorough){
+            return response()->json(["message" => "Not found!"], 404);
+        }
+
+        $numberOfAreas =  count($areasBorough);
+        $sum = 0;
+
+        foreach($areasBorough as $area){
+            $vi = $area -> vulnerability_index;
+            $sum += $vi; 
+        };
+
+       $vulnerabilityIndexMedian = round(($sum/$numberOfAreas),2);
+       return $vulnerabilityIndexMedian;
+    }
+
+    public function indexActionMedianBorough($code){
+        $allMultipolygons = Multipolygons::all();
+        $areasBorough = array();
+        foreach($allMultipolygons as $multipolygon) {
+
+            if($multipolygon -> code_borough == $code){
+                array_push($areasBorough, $multipolygon);
+            };
+        };
+
+        if(!$areasBorough){
+            return response()->json(["message" => "Not found!"], 404);
+        }
+
+        $numberOfAreas =  count($areasBorough);
+        $sum = 0;
+
+        foreach($areasBorough as $area){
+            $vi = $area -> action_index;
+            $sum += $vi; 
+        };
+
+       $actionIndexMedian = round(($sum/$numberOfAreas),2);
+       return $actionIndexMedian;
     }
 }

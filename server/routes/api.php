@@ -1,10 +1,10 @@
 <?php
 
 use App\Http\Controllers\Api\V1\AuthController;
-use App\Http\Controllers\MultipolygonController;
 use App\Http\Controllers\Api\V1\InterventionController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\V1\MultipolygonsController;
 
 
 
@@ -22,5 +22,5 @@ Route::put('/intervention/{id}', [InterventionController::class, 'update']);
 Route::delete('/intervention/{id}', [InterventionController::class, 'destroy']);
 // });
 
-Route::get('/all', [MultipolygonController::class, 'getAllMultipolygons'])->name('api.getAllMultipolygons');
-Route::get('/boroughs', [MultipolygonController::class, 'getCoordsFromAllBorough'])->name('api.getBoroughsCoords');
+Route::get('/all', [MultipolygonsController::class, 'getAllMultipolygons'])->name('api.getAllMultipolygons');
+Route::get('/boroughs', [MultipolygonsController::class, 'getCoordsFromAllBorough'])->name('api.getBoroughsCoords');
