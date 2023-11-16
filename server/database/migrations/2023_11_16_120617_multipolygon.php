@@ -17,7 +17,6 @@ return new class extends Migration
             $table->integer('code_borough');
             $table->string('name_district');
             $table->integer('code_district');
-            $table->integer('code_census');
             $table->decimal('action_index', 10);
             $table->decimal('vegetation_index', 10);
             $table->integer('vulnerability_index');
