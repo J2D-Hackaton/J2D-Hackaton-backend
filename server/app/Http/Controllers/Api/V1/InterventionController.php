@@ -29,10 +29,10 @@ class InterventionController extends Controller
         ]);
 
         Intervention::create([
-            'barrio_id' => $request->zone_id,
+            'barrio_id' => $request->barrio_id,
             'title' => $request->title,
             'description' => $request->description,
-            'startDate'  => $request->startdate,
+            'startDate'  => $request->startDate,
             'endDate' => $request->endDate,
             'budget' => $request->budget,
             'status' => $request->status,
@@ -60,20 +60,20 @@ class InterventionController extends Controller
 
     public function update(Request $request, $id)
     {
-        $Intervention=Intervention::findOrFail($id);
+        $Intervention = Intervention::findOrFail($id);
         $Intervention->update([
-            'barrio_id' => $request->zone_id,
+            'barrio_id' => $request->barrio_id,
             'title' => $request->title,
             'description' => $request->description,
-            'startDate'  => $request->startdate,
+            'startDate'  => $request->startDate,
             'endDate' => $request->endDate,
             'budget' => $request->budget,
-            'status' => $request->status,    
+            'status' => $request->status,
         ]);
 
         return response([
-            'message'=>'Intervention updated successfully'
-        ],201);
+            'message' => 'Intervention updated successfully'
+        ], 201);
     }
 
 
