@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api\V1;
 use App\Models\Intervention;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Multipolygons;
 use Illuminate\Support\Facades\Validator;
 
 class InterventionController extends Controller
@@ -12,7 +13,7 @@ class InterventionController extends Controller
     public function index()
     {
         $Interventions = Intervention::all();
-        return  response($Interventions, 200);
+        return response($Interventions, 200);
     }
 
 
@@ -89,5 +90,11 @@ class InterventionController extends Controller
         } else {
             return response(['message' => 'Intervention not found'], 404);
         }
+    }
+
+    public function showBorough($id){
+        $intervations_borough = Intervention::where('barrio_id', $id)->get();
+        $borrough_name = Multipolygons::select('name_borough')->where('code_borough', $id)->first();
+        return response(['borough_name' => $borrough_name, "interventions" => $intervations_borough], 200);
     }
 }
